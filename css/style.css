@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.card {
+    /* margin を設定してみよう */
+    /* m48 + Tabキー */
+    /* margin: 48px; */
+    /* ml24 + Tabキー */
+    margin-left: 100px;
+    /* padding を設定してみよう */
+    /* p48 + Tabキー */
+    /* padding: 48px; */
+    /* pl100 + Tabキー */
+    padding-left: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    border: 1px #242424 solid; 
+    align-items: center;
+}
+
+.field {
+    /* display:flex を設定してみよう */
+    /* df + Tabキー */
+    display: flex;
+}
+
+
+/* 以下、レイアウト用CSS */
+body {
+    color: #242424;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+section {
+    margin: 42px 0;
+    padding: 18px 0;
+    border-top: 1px #444 solid;
+    border-bottom: 1px #444 solid;
+    background-color: white;
+}
+.container {
+    margin: 0 auto;
+    max-width: 860px;
+}
+.card-content {
+    margin: auto;
+}
